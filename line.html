@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript basic level exercises - Line</title>
+    <link rel="stylesheet" href="css/site.css">
+    <style media="screen">
+        img {
+            width: 400px;
+            display: block;
+            margin: 30px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Size of the line</h1>
+    <p><a class="button" href="index.html">Go back to menu</a></p>
+
+    <img src="https://i.ytimg.com/vi/wgJHnilsHg0/maxresdefault.jpg" alt="line">
+
+    <script type="text/javascript">
+        var lengthOfLine = parseInt(prompt('Please enter the length of the line in mm'));
+        var message;
+        if (isNaN(lengthOfLine)) {
+            message = 'You entered something else then a number :(';
+        } else {
+            var incrementedLength = lengthOfLine + 1;
+
+            message = 'The line is almost ' + incrementedLength + ' mm';
+        }
+        document.write('<p>' + message + '</p>');
+        alert(message);
+        console.log(message);
+    </script>
+</body>
+
+</html>
