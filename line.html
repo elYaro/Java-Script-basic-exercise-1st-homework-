@@ -26,13 +26,11 @@
         if (isNaN(lengthOfLine)) {
             message = 'You entered something else then a number :(';
         } else {
-            var incrementedLength = lengthOfLine + 1;
-
-            message = 'The line is almost ' + incrementedLength + ' mm';
+            message = 'The line is exactly ' + lengthOfLine + ' mm';
         }
-        document.write('<p>' + message + '</p>');
-        alert(message);
-        console.log(message);
+        document.write('<p>' + message + '</p>');  // Write the message into the page. Old and ugly way...
+        alert(message);  // Popup the message
+        console.log(message);  // Print the message into the console
     </script>
 </body>
 
