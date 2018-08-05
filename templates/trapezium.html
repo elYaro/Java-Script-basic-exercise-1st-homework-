@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript basic level exercises - Trapezium</title>
+    <link rel="stylesheet" href="../static/css/style.css" type="text/css">
+    <style media="screen">
+        img {
+            width: 400px;
+            display: block;
+            margin: 30px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Area of the Trapezium</h1>
+    <p><a class="button" href="/templates/index.html">Go back to menu</a></p>
+
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAW0AAACKCAMAAABW6eueAAAAxlBMVEX/////AAAAAABUAAB4eHjg4ODV1dVdXV3hAADlAACCgoL4+PjZ2dn09PT6+vrW1tbs7OxXV1e5AACurq68vLzj4+NRUVFjY2PHx8fv7++np6czMzPAwMDNzc20tLSfn59CQkISEhLAAAAdHR2NjY1JSUlxcXFHAACWlpZiYmKRAAAkJCQ6Ojp2dnasAAAxMTFnAAAZAABfAAA3AADXAAChAAB4AAArAAAADAwfIiL0AAB8AAAbAACLAAAkAAA+AAASGRnLAABDnGRCAAAJUElEQVR4nO2dCXeiPBfH9VZwQRFEFhcExAWrU6eddrrM9vT7f6k3YbHWAcFaEt9Mfj3HeoRa8ufmJrlJLpUKh8PhcDgcDofD4XA4HA6Hwy6yFjgC7Yv4V7AA5mtwaF/GP4I9HEiDxVqnfR3/EBqItC/hH0GxnJbJ1SZD2/XULwZXmwyGp3BPQgxvg15aXG0yzMB0VsDVJoPk+NuZqPIeICFkmfYVcDgcDqcIwZg7bHIYPnh1ZyxyzdOYFZBFN+tq/INIe/v2xnBHPgB47nwenpLKqpWCVX5hadOGfv5JDpDAK7+0tFFhnX9SHabNRrPZbOCX6LXRaBy+jV4fAb59vX6Y4mNpZzZ6vd609zfTJdjlF5cubWRT+ca9gWphfk2bL8XP3qMHAYECU6WG1FbzPLf+fPsh/U6jAXOJSJlpUss/xYKvBNSufgX2p40LqK3BDQm1H2BWfnEpU0DtFrySUPsFjPKLS5kCam9u70moXb16Yj4eXkBtWH6sl3EqN+wvQMlXWyfTSFar9/BMoMBUyVdbg19k1K4uQSFQYprkq92CKSG1H5h3JflqL4CM265Wm1BnPHSYq7ayuSWl9ssdMD5vnKt2G+4IiV2tXsOQRJnpkau2DQ/E1G7CnESZ6ZGrdkBm3B7x+782iUJTI1dtg8y4PeIBJiQKTY1ctZ9PCG6fzSu4BMpMjzy19advBNVGAxymg9x5avfhO0m1f7E9wMlTewg9kmo3YUGk2JTIU7sFZMKtMS/Lp3IHONKg1K/PIUdtefSzQVJtNMApsOTi44iGSzM4kKO2BFdExa7elzqDE5hgXLDaAtlGEgHP5YVdZVECtbRvL0CO2g7BcXvEr1JdSeeibbtGciQZ8gr1Eot72WrXiQW3E16WUKIenf1mQcr7R5LUCU/pHPtG6YTx2JejR/Xtb8JiV6s/ToyVnHRvdJjvpJsZeS3EEKCFfwf1zGCZ6IFX/AqOdz9FUjPAe9yfNsCZbDbFh5+BaRhmtHRZMmdpRqlv9j6VN3EjMh5lLgmtfd54zCLeSCJXcntS7ocVgPGR2ErNTf1YgD230fWSyaR+Er+RtPiDuF7IddCK/UPRyqsDLbLj9ohrGBe7fowCGxevRZY0W9BEZJvaMDRHS9Mmx9ytkGyd7TtOf/Jmufq+2hPwK5Nh6EXms+R4aMrDZP2zDtC1h0Uu2PTyHJdLdtweMQWzwMXHaDB0ADX1A9hskJMdrwFgIVUCvP4+ctF1A7M4kH4WHRRMr+/A3gTdO7VbUG+NYINVCtz48/aohk096aaKsGm5UGTt+WqdpzaQbyQR4BV3DSYINm6nBgAjrdvxoTVxUd1emWP0G5ucHO18GB00UIvI29aRbPr+FvFQ7aTKG0jGzhawox/vzmlDYL3VPnRbg8q2yHyquc0J0bRhSUPtE3olAq4HLtJjAL6Aq/4KNzaox66Mx2qkwdud68R7TpAvltywszGBET4/bhmD3a6UqN1VsNHHaotvAiv+nimbyLMoXhHbNteDjnVsIpBwcDvhFQqsTqzEAm1XJjJopDa2Xgd8VXWR2toa1l6ktqII6EfB9iq2MXi/m+KHOyFq8AV/R+y5FFEU+2Cj16jO27AWKrofrivfU9vyvV0vSNmgijQG/1gTEbNYow4l1LPPdIgtk3pH89tTwS6sZMR+QhoArqgazDVNG9oy+BPkdbHasUEfVGNpE9q2i04ZbPZ7Ffre5JEDcxlZXOjhuzu1bZh0d3MeIr4Xs0LDXxO8vjw8MltSo9FIIr5Dwe18XRgpkqTMYSLDVsGOxdNsW9Ww2pof2XZtgWkd2JQZDuuwi68ht93e3d39VnKBvATq4YVubZw4C8sbYkuPNwmhXotcUcHp5HdaF+H9yg5xdja/m1TUnsLxIe6OINrP8AVMCcImP3K9fSTAm/tNZRb2MWawVWsqqOtdM7mnNvIShj6Ld0w4cTMrRLdwHHdKFjimuEC90Pxm0tzibw7z5KQygDvSUZKYqNeVjxaENtUOhnLghPYpBk6A/azmDNtB968/kBM/0YXw4DCwKu2Z82bPe6ObjqMFs1l8IUbclMixiduD+AJQLdSDoMB4zAzNwc9UW4QfdMRGvZJSNk8OWqq5jZ20me5r5fTbbJ2/2HkVNh3ZagcUxu0RveK9klPor3V5GzeDA/eE2X1xfX7QfZFj2wtKjSSOlcDZpcvA3X1zSy3Qbwtx5p9Q1SJPku23DZLLpN7z9ZRYySmM97p7QtEhq/4ZEfeFh2+u72YcFtYk9gCnMy1p82TnYvd323RGkiHN389Fq/kpKB7dBeJHIhJjkmuJD/leSjJBUxWElH4hMY4MI2o0gtsJN2X0SsZJUIoWR8q0JbQHOJ2SUjrIVBMVHlEbiK4lPuSKxeww2WrrpBelvafHYkqHbLXJ7QFOpfmztAEOPbLVDogvk3rPksHsMNlqL4BOuDWBRVeSqfZg+0hX7Sa4ZQxwqJKptkJwD3A6DCaaylTbottIVplMNJWp9ozmuD3khb192Jlqr4DshpsUvjGXaCpTbZdecDuhx9zmySy1hWcqi9LecX+7JapF+WSpTSjB5XGWrGWHyVJ7QjPcmvBwsTMtHyRL7QXlcXtIE+psJRnIUntNeA9wKi9XjLmSLLXprCU+hDVXkqF2l/q4PYS1RFMZag/hmrbSIbf/MRUryVB7Rm2Z1Hse2MpZl662bFIObifc080C8Nmkq608P1JaS3zIFVOJptLVJp8oIwu20l+mq21dSCOJHxXCTqKpwPXdRUpVpbIHOJWXP+zM4NgAqdu0jfOC2x98wFAqD+UmmiLKPP3xYKOzgtsNWP54eP0ktV8ZelSImLrttvv05yyF7m+ur24B7m6mn9CPfHxiJ79/K23zdR9+Xp3D3d3dn5/hetLHs74n5LZoSor/A1JXfPZLeqjhB2FH7XQUQUQ/XaHdRi/4Ld4fvvts7+3+4W7ymbUGGJktx/r72JE/FVMPo7dUs1NePp2WJSiMP2+Cw+FwOJyPI4u8K0EOsayt05wUbIaCSZePyNUmiI08icJMZPrSEWGIcztx500EEaCu22uPmzcJxHA+sc/UHO7lYodORPHLTMvPSYj6JNKanWmuS0aMbZud9QmXjA2qjDMTsP28yEvBBlCtvs/e5umLpA191N922X7w7OUg4axCtC+Cw+FwOBwOh8MhyP8AVb25e6p2lUoAAAAASUVORK5CYII=" alt="trapezium">
+
+    <script type="text/javascript">
+        var lengthOfBasis1 = parseInt(prompt('Please enter the length of the trapezium\'s botton basis in cm'));
+        var lengthOfBasis2 = parseInt(prompt('Please enter the length of the trapezium\'s upper basis in cm'));
+        var lengthOfHeight = parseInt(prompt('Please enter the hight of the trapezium\'s in cm'));
+        var areaOfTrapezium = 0.5 * (lengthOfBasis1 + lengthOfBasis2) * lengthOfHeight;
+        var message;
+
+        if (isNaN(lengthOfBasis1 || lengthOfBasis2 || lengthOfHeight ) ) {
+            message = 'You entered something else then a number :(';
+        } else {
+            message = "The trapezium's area is exactly " + areaOfTrapezium + " square cm.";
+        }
+        document.write('<p>' + message + '</p>');  // Write the message into the page. Old and ugly way...
+        alert(message);  // Popup the message
+        console.log(message);  // Print the message into the console
+    </script>
+</body>
+
+</html>

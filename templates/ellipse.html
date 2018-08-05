@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript basic level exercises - Trapezium</title>
+    <link rel="stylesheet" href="../static/css/style.css" type="text/css">
+    <style media="screen">
+        img {
+            width: 400px;
+            display: block;
+            margin: 30px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Area of the Ellipse</h1>
+    <p><a class="button" href="/templates/index.html">Go back to menu</a></p>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4x0Dp4TUto90vh6voax9Wh5E9-6ILuHdWRLIeCeRZDZDRl8FG9Q" alt="ellipse">
+
+    <script type="text/javascript">
+        var lengthOfRadius1 = parseInt(prompt('Please enter the length of the ellipse\'s longer radious in cm'));
+        var lengthOfRadius2 = parseInt(prompt('Please enter the length of the ellipse\'s shorter radious in cm'));
+        var areaOfEllipse = Math.PI * lengthOfRadius1 * lengthOfRadius2;
+        var message;
+
+        if (isNaN(lengthOfRadius1 || lengthOfRadius2 ) ) {
+            message = 'You entered something else then a number :(';
+        } else {
+            message = "The ellipse's area is exactly " + areaOfEllipse + " square cm.";
+        }
+        document.write('<p>' + message + '</p>');  // Write the message into the page. Old and ugly way...
+        alert(message);  // Popup the message
+        console.log(message);  // Print the message into the console
+    </script>
+</body>
+
+</html>

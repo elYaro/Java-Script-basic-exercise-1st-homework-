@@ -1,6 +1,8 @@
 body {
     font-family: sans-serif;
-    background: url("../assets/concrete_seamless.png");
+    background-image: url("/static/img/concrete_seamless.png");
+  
+
 }
 
 h1,
@@ -28,6 +30,7 @@ p {
     background: #72c8ff;
     padding: 10px 15px;
     border-radius: 3px;
+    border-radius: 4px;
 }
 
 ul {
@@ -42,7 +45,8 @@ ul > li {
     margin-bottom: 6px;
 }
 
-a {
+a, 
+a:checked {
     text-decoration: none;
     color: #2c6596;
 }
@@ -50,3 +54,4 @@ a {
 a:hover {
     color: #4592d4;
 }
+
